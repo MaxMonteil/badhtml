@@ -1,6 +1,11 @@
 body {
-    background-color: #555555;
-    margin: 32px 25vh;
+    background-color: orange;
+    margin: 32px auto;
+    width: 70vw;
+}
+
+body > * {
+    box-sizing: border-box;
 }
 
 #site {
@@ -20,7 +25,17 @@ nav {
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-gap: 32px;
+    grid-gap: 32px 32px;
+}
+
+@media only screen and (max-width: 1300px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        grid-row-start: 1;
+    }
 }
 
 #email-form {
