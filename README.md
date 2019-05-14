@@ -4,12 +4,6 @@ An example of so many wrong decisions that can be made while making a site. This
 
 The code was mostly copied from Mozilla here [HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 
-## Table of Contents
-
-* [Getting Started](#getting-started)
-	* [Prerequisites](#prerequisites)
-* [License](#license)
-
 ## Getting Started
 
 Either clone the repo or copy paste the file content into local files on your machine.
